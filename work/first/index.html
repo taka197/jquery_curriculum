@@ -106,6 +106,7 @@
         });
 
         // 第7問  id='q7'の子要素をクリックしたら、その要素のインデックス（何番目か）をconsole.log()とalert()を用いて表示させよ。
+          // find()　findメソッドは指定されたDOM要素から引数に渡された要素を（ここではli）を取ってくるメソッドです。
         $('#q7').find('li').click(function() {
           var targetNum = $(this).index();
           console.log(targetNum);
